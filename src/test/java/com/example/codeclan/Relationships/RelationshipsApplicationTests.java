@@ -31,7 +31,9 @@ class RelationshipsApplicationTests {
 		projectRepository.save(project);
 
 		Employee employee = new Employee("Jim","Jarvis",666,department);
-		employeeRepository.addProject(project);
+		employeeRepository.save(employee);
+		employee.addProject(project);
+		project.addEmployee(employee);
 
 	}
 
