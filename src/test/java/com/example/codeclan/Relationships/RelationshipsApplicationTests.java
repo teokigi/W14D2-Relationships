@@ -24,14 +24,14 @@ class RelationshipsApplicationTests {
 
 	@Test
 	public void canCreateAndSaveAEmployeeProjectDepartment(){
-		Department department = new department("justAName");
-		Department.save(department);
+		Department department = new Department("justAName");
+		departmentRepository.save(department);
 
 		Project project = new Project("ehhh",69);
-		Project.save(project);
+		projectRepository.save(project);
 
 		Employee employee = new Employee("Jim","Jarvis",666,department);
-		employee.addProject(project);
+		employeeRepository.addProject(project);
 
 	}
 
