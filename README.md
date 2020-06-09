@@ -6,5 +6,6 @@ Java
 
 ## other
 
-coded in IDE - IntelliJ
-Project start point made with - Spring Boot ( start.spring.io)
+- Project start point made with - Spring Boot ( start.spring.io)
+- coded with the assistance of the IDE IntelliJ
+
