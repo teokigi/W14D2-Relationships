@@ -32,3 +32,4 @@ build/
 .vscode/
 src/main/resources/static/
 src/main/resources/templates/
+db/relationshipservice_db.mv.db
