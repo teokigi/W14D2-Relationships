@@ -48,6 +48,8 @@ public class Employee {
         this.projects = new ArrayList<>();
     }
 
+    public Employee(){}
+
     public String getFirstName() {
         return firstName;
     }

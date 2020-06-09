@@ -42,6 +42,8 @@ public class Project {
         this.employees = new ArrayList<>();
     }
 
+    public Project(){}
+
     public String getName() {
         return name;
     }

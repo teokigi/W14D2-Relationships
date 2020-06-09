@@ -26,6 +26,8 @@ public class Department {
         this.employees = new ArrayList<>();
     }
 
+    public Department(){}
+
     public String getName() {
         return name;
     }
